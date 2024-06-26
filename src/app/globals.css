@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+}
+
+.bg-banner {
+  background-image: url('/assets/banner-image.png');
+  height: 1150px;
+}
+
+@media screen and (min-width: 1400px) {
+  .bg-banner {
+    height: 1320px;
+  }
+}
